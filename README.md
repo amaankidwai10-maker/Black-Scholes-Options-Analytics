@@ -19,4 +19,3 @@ This project implements the **Black-Scholes-Merton model** to calculate the theo
 1. Clone this repository.
 2. Install dependencies: `pip install -r requirements.txt`
 3. Open `options_pricing.ipynb` in VS Code or Jupyter Notebook.
-4.
