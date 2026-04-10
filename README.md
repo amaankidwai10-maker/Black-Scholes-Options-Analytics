@@ -19,3 +19,6 @@ This project implements the **Black-Scholes-Merton model** to calculate the theo
 1. Clone this repository.
 2. Install dependencies: `pip install -r requirements.txt`
 3. Open `options_pricing.ipynb` in VS Code or Jupyter Notebook.
+
+### Analytical Conclusion: Price Sensitivity
+The generated graph illustrates that as the **Stock Price ($S$)** increases, the **Call Option Price** rises at an accelerating rate. This curvature is known as **Gamma**, representing the rate of change in **Delta**. When the stock price is far below the Strike Price ($K$), the option is "Out of the Money" and the price remains flat. As $S$ surpasses $K$, the option gains intrinsic value, and the slope of the curve approaches 1.0, signifying that the option price will eventually move dollar-for-dollar with the underlying asset.
